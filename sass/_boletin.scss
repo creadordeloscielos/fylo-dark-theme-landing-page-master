@@ -1,0 +1,52 @@
+#boletin {
+  background: $main;
+  .container {
+    text-align: center;
+    .txt {
+      background: $email;
+      margin: auto;
+      padding: 30px 20px;
+      border-radius: 8px;
+      box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.25);
+      display: inline-block;
+      margin-bottom: -100px;
+
+      h2 {
+        font-size: 2em;
+      }
+
+      p {
+        max-width: 750px;
+        margin: auto;
+        font-size: 1em;
+        line-height: 1.5;
+        padding: 20px 0px;
+      }
+
+      input[type="email"] {
+        padding: 17px 25px;
+        font-size: 0.8em;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 50px;
+        border: none;
+        width: 60%;
+        margin-bottom: 20px;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      button {
+        @include btn;
+        border: none;
+        padding: 20px 30px;
+        font-size: 0.85em;
+        font-weight: 700;
+        margin-left: 20px;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}

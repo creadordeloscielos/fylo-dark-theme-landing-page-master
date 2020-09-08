@@ -1,0 +1,273 @@
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .feature {
+    width: 100% !important;
+    padding: 30px 0px !important;
+  }
+
+  #banner {
+    .container {
+      img {
+        width: 100%;
+      }
+      .txt {
+        h1 {
+          font-size: 2em;
+        }
+        p {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+
+  #boletin {
+    .container {
+      width: 90%;
+    }
+  }
+
+  footer {
+    .container {
+      flex-wrap: wrap;
+    }
+    .column-1 {
+      width: 45% !important;
+    }
+
+    .redes {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  #users {
+    .container-1 {
+      .container {
+        flex-wrap: wrap;
+        .user {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  #productive {
+    background: $main;
+    .container {
+      .txt {
+        h2 {
+          font-size: 2em;
+        }
+
+        p {
+          font-size: 0.9em;
+        }
+
+        .arrow {
+          a {
+            font-size: 0.8em;
+          }
+        }
+      }
+    }
+  }
+
+  #boletin {
+    .container {
+      width: 90%;
+
+      .txt {
+        h2 {
+          font-size: 1.5em;
+        }
+
+        p {
+          font-size: 0.8em;
+          max-width: 600px;
+        }
+      }
+    }
+  }
+
+  footer {
+  
+      img{
+        width: 150px;
+      }
+     
+    .container {
+      flex-direction: column;
+    }
+    .column-1 {
+      width: 100% !important;
+
+      i {
+        margin-right: 5px;
+      }
+    }
+
+    .column {
+      margin-left: 0 !important;
+      margin-top: 20px;
+      width: 100%;
+      li {
+        padding-bottom: 5px !important;
+      }
+
+      i {
+        margin-right: 5px !important;
+      }
+    }
+
+    .redes {
+      text-align: center;
+      padding-bottom:10px;
+     
+    }
+
+    .redes ul {
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  #users {
+    padding: 60px 0px;
+    .container-1 {
+      .container {
+        flex-wrap: wrap;
+        .user {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  #productive {
+    .container {
+      flex-direction: column;
+
+      img {
+        width: 100%;
+      }
+
+      .txt {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 35px;
+
+        h2 {
+          font-size: 2em;
+          width: 100%;
+        }
+
+        p {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+
+  .wave-0{
+    display: none;
+  }
+  .wave-1{
+    display: block !important;
+  }
+
+}
+
+@media screen and (max-width: 642px) {
+  #boletin {
+    .container {
+      .txt {
+        input[type="email"] {
+          width: 100%;
+        }
+
+        button {
+          margin-left: 0px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    .container {
+      img {
+        width: 90px;
+      }
+      nav {
+        a {
+          font-size: 0.9em;
+          padding: 0px 0px 0px 10px;
+        }
+      }
+    }
+  }
+
+  #banner {
+    .container {
+      img {
+        width: 100%;
+      }
+      .txt {
+        h1 {
+          font-size: 1.5em;
+        }
+        p {
+          font-size: 0.9em;
+        }
+
+        a {
+          padding: 1rem 3rem;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  #users {
+    .container-1 {
+      .container {
+        .user {
+          p {
+            font-size: 0.8em;
+          }
+        }
+      }
+    }
+  }
+
+  .feature {
+    h3 {
+      font-size: 1.1em;
+    }
+    p {
+      font-size: 0.8em;
+    }
+  }
+
+  footer {
+    img{
+      width: 100px;
+    }
+   
+  
+  }
+}

@@ -1,0 +1,44 @@
+#users {
+  background: $main;
+  padding: 100px 0px;
+  .container-1 {
+    img {
+      margin-bottom: -10px;
+    }
+    .container {
+      justify-content: space-around;
+      .user {
+        background: $tesnimoniales;
+        width: 30%;
+        padding: 30px 25px;
+        box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+
+        p {
+          font-size: 0.95em;
+          line-height: 1.5;
+        }
+        .profile {
+          margin-top: 15px;
+          justify-content: flex-start;
+          img {
+            width: 50px;
+            border-radius: 50%;
+          }
+
+          .container {
+            margin-left: 10px;
+            line-height: 1.5;
+            h4 {
+              font-size: 0.8em;
+            }
+
+            p {
+              font-size: 0.7em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
